@@ -46,7 +46,7 @@ SvelteKit uses file-based routing where routes of your app are defined by the di
 
 {% img src="routing.webp" alt="SvelteKit routing" %}
 
-The routes are defined inside a `src/routes` folder. Each directory inside the `routes` folder can have or more route files using the `+` prefix.
+The routes are defined inside a `src/routes` folder. Each directory inside the `routes` folder can have one or more route files using the `+` prefix.
 
 To define a page in SvelteKit you use a `+page.svelte` file which becomes a route that maps to a URL.
 
